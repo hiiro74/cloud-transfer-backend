@@ -107,7 +107,7 @@ Feature requests are always welcome. If you'd like to request a new function, fe
 * [Issue tracker](https://github.com/dhaval-mehta/url-to-google-drive/issues)
 * [Source code](https://github.com/dhaval-mehta/url-to-google-drive/)
 
-## Required
+## How to get Google client_id and client_secret
 
 * Open [Google Dev Credentials Site](https://console.developers.google.com/apis/credentials).
 * Create a Project, name as you like.
