@@ -11,7 +11,7 @@
         },
         "client_secret": {
             "description": "Client Secret from Google Console (https://tinyurl.com/ro5s68s)",
-            "generator": "secret"
+            "value": "XXXXXXXXXXXXXXXXXXXXXXXX"
         },
         "redirect_uri": {
             "description": "Your App URL eg. https://appname.heroku.com/api/oauth/google/callback (Replace appname with your own)",
