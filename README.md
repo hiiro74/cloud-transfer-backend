@@ -107,6 +107,19 @@ Feature requests are always welcome. If you'd like to request a new function, fe
 * [Issue tracker](https://github.com/dhaval-mehta/url-to-google-drive/issues)
 * [Source code](https://github.com/dhaval-mehta/url-to-google-drive/)
 
+## Required
+
+* Open [Google Dev Credentials Site](https://console.developers.google.com/apis/credentials).
+* Create a Project, name as you like.
+* Enable [Drive API](https://console.developers.google.com/apis/library/drive.googleapis.com)
+* In [Credentials Page](https://console.developers.google.com/apis/credentials) Click `Create Credentials` and then Click `OAuth Client ID`.
+* Select Web Application.
+* In `Authorized JavaScript origins` enter your domain name or IP whichever you are using for this app.
+* In `Authorized redirect URIs` enter your domain name or IP with `/api/oauth/google/callback` at last.
+* eg. for `https://savetogoogledrive.herokuapp.com` it's `https://savetogoogledrive.herokuapp.com/api/oauth/google/callback`
+* Copy your details.
+* You'll need these 3 when deploying to Heroku using below button.
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ## Contributing
