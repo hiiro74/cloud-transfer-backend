@@ -107,6 +107,8 @@ Feature requests are always welcome. If you'd like to request a new function, fe
 * [Issue tracker](https://github.com/dhaval-mehta/url-to-google-drive/issues)
 * [Source code](https://github.com/dhaval-mehta/url-to-google-drive/)
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 ## Contributing
 
 We always welcome new contributors. If you wish to contribute, please take a quick look at the [guidelines](./CONTRIBUTING.md)!
