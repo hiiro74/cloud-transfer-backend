@@ -1,0 +1,21 @@
+{
+    "name": "SaveToGoogleDrive",
+    "description": "App to Upload files directly to Google Drive",
+    "repository": "https://github.com/hiiro74/cloud-transfer-backend",
+    "logo": "https://raw.githubusercontent.com/hiiro74/cloud-transfer-backend/master/src/main/resources/static/img/savetodrive.png",
+    "keywords": ["google","drive","cloud","cloud transfer","save to drive"],
+    "env": {
+        "client_id": {
+            "description": "Client ID from Google Console (https://tinyurl.com/ro5s68s)",
+            "value": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.apps.googleusercontent.com"
+        },
+        "client_secret": {
+            "description": "Client Secret from Google Console (https://tinyurl.com/ro5s68s)",
+            "generator": "secret"
+        },
+        "redirect_uri": {
+            "description": "Your App URL eg. https://appname.heroku.com/api/oauth/google/callback (Replace appname with your own)",
+            "value": "https://savetogoogledrive.herokuapp.com/api/oauth/google/callback"
+        }
+    }
+}
