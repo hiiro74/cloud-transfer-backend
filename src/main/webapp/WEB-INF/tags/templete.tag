@@ -94,9 +94,9 @@
             </div>
             <!-- Sidebar Navidation Menus--><span class="heading">Main</span>
             <ul class="list-unstyled">
-                <li><a href="${pageContext.request.contextPath}/"><i class="icon-home"></i>Home</a></li>
-                <li><a href="${pageContext.request.contextPath}/new_upload"><i class="fa fa-cloud-upload"></i>New upload</a></li>
-                <li><a href="${pageContext.request.contextPath}/uploads"> <i class="fa fa-tachometer"></i>Your Uploads </a></li>
+                <li><a href="/"><i class="icon-home"></i>Home</a></li>
+                <li><a href="/new_upload"><i class="fa fa-cloud-upload"></i>New upload</a></li>
+                <li><a href="/uploads"> <i class="fa fa-tachometer"></i>Your Uploads </a></li>
 <%--                <li><a href="${pageContext.request.contextPath}/suggest_an_idea"> <i class="fa fa-thumbs-o-up"></i>Suggest an Idea</a></li>
                 <li><a href="${pageContext.request.contextPath}/bug_report"> <i class="fa fa-bug"></i>Report a bug </a></li>
                 <li><a href="${pageContext.request.contextPath}/contact_us"> <i class="fa fa-envelope-o "></i>Contact us</a></li>
