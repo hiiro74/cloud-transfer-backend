@@ -15,7 +15,7 @@
     <jsp:attribute name="body_area">
         <ul class="breadcrumb">
             <div class="container-fluid">
-                <li class="breadcrumb-item"><a href="${pageContext.request.contextPath}/index.jsp">Home</a></li>
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
                 <li class="breadcrumb-item active">Forms</li>
             </div>
         </ul>
@@ -26,7 +26,7 @@
                       <div class="col-lg-12">
                           <div class="card">
                               <div class="card-header d-flex align-items-center">
-                                  <h3 class="h4">Enter File Information</h3>
+                                  <h3 class="h4">New Upload</h3>
                               </div>
                               <div class="card-body">
                                   <form method="post" id="uploadform" action="${pageContext.request.contextPath}/api/drive/upload">
